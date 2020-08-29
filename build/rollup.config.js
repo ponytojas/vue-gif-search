@@ -3,9 +3,14 @@ import vue from "rollup-plugin-vue"; // Handle .vue SFC files
 import buble from "@rollup/plugin-buble"; // Transpile/polyfill with reasonable browser support
 export default {
   input: "src/index.js", // Path relative to package.json
+  external: ["axios"],
   output: {
     name: "VueGifSearch",
     exports: "named",
+
+    globals: {
+      axios: "axios",
+    },
   },
   plugins: [
     commonjs(),
@@ -16,7 +21,7 @@ export default {
     buble({
       transforms: {
         asyncAwait: false,
-        forOf: false
+        forOf: false,
       },
     }), // Transpile to ES5
   ],

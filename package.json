@@ -1,5 +1,5 @@
 {
-  "name": "VueGifSearch",
+  "name": "vue-gif-search",
   "author": "Daniel Villalobos <daniel.villalobosdel@gmail.com>",
   "description": "A simple component to search gifs in vue with Giphy and get the url",
   "version": "1.0.1",
@@ -8,10 +8,10 @@
   "unpkg": "dist/VueGifSearch.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ponytojas/VueGifSearch.git"
+    "url": "git+https://github.com/ponytojas/vue-gif-search.git"
   },
   "bugs": {
-    "url": "https://github.com/ponytojas/VueGifSearch/issues"
+    "url": "https://github.com/ponytojas/vue-gif-search/issues"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
