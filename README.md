@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to VueGifSearch 🔍</h1>
+<h1 align="center">Welcome to vue-gif-search 🔍</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > A simple component to search gifs in vue with Giphy and get the url
@@ -14,7 +14,7 @@ npm i vue-gif-search
 ## How to use 📝
 
 ```javascript
-import gifSearch from "VueGifSearch";
+import gifSearch from "vue-gif-search";
 ```
 
 ## Emited :arrow_up:
@@ -28,7 +28,7 @@ Once you clicked on one result, the component will emit the url, you will need t
    <gifSearch apiKey="YourAPIKey" @clicked="onClickGIF" />
 </template>
 <script>
-import gifSearch from "VueGifSearch";
+import gifSearch from "vue-gif-search";
 
 
 export default {

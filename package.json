@@ -1,5 +1,5 @@
 {
-  "name": "vue-gif-search",
+  "name": "VueGifSearch",
   "author": "Daniel Villalobos <daniel.villalobosdel@gmail.com>",
   "description": "A simple component to search gifs in vue with Giphy and get the url",
   "version": "1.0.0",
