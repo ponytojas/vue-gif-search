@@ -2,7 +2,7 @@
   "name": "VueGifSearch",
   "author": "Daniel Villalobos <daniel.villalobosdel@gmail.com>",
   "description": "A simple component to search gifs in vue with Giphy and get the url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/VueGifSearch.umd.js",
   "module": "dist/VueGifSearch.esm.js",
   "unpkg": "dist/VueGifSearch.min.js",
