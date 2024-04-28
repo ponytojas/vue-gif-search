@@ -33,7 +33,7 @@
     "gif search"
   ],
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
